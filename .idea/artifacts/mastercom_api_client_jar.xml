@@ -1,0 +1,6 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="mastercom-api-client:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/mastercom_api_client_jar</output-path>
+    <root id="archive" name="mastercom-api-client.jar" />
+  </artifact>
+</component>

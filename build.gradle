@@ -37,8 +37,8 @@ if(hasProperty('target') && target == 'android') {
             targetSdkVersion 25
         }
         compileOptions {
-            sourceCompatibility JavaVersion.VERSION_1_8
-            targetCompatibility JavaVersion.VERSION_1_8
+            sourceCompatibility JavaVersion.VERSION_17
+            targetCompatibility JavaVersion.VERSION_17
         }
 
         // Rename the aar correctly
@@ -83,8 +83,8 @@ if(hasProperty('target') && target == 'android') {
     apply plugin: 'java'
     apply plugin: 'maven-publish'
 
-    sourceCompatibility = JavaVersion.VERSION_1_8
-    targetCompatibility = JavaVersion.VERSION_1_8
+    sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_17
 
     publishing {
         publications {
@@ -167,4 +167,10 @@ test {
         events "passed", "skipped", "failed"
     }
 
+}
+
+jar {
+    from sourceSets.main.output
+    archiveBaseName = 'mastercom-api-client'
+    archiveVersion = '1.0'
 }
