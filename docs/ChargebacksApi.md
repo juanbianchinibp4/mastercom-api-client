@@ -25,11 +25,11 @@ Issuers and acquirers use this endpoint to acknowledge a chargeback or second pr
 ### Example
 ```java
 // Import classes:
-import bp4.mastercom_api_client.ApiClient;
-import bp4.mastercom_api_client.ApiException;
-import bp4.mastercom_api_client.Configuration;
+import fiserv.mastercom_api_client.ApiClient;
+import fiserv.mastercom_api_client.ApiException;
+import fiserv.mastercom_api_client.Configuration;
 import bp4.mastercom_api_client.models.*;
-import bp4.mastercom_api_client.api.ChargebacksApi;
+import api.fiserv.mastercom_api_client.ChargebacksApi;
 
 public class Example {
   public static void main(String[] args) {
@@ -92,11 +92,11 @@ Issuers and acquirers use this endpoint to create chargebacks and second present
 ### Example
 ```java
 // Import classes:
-import bp4.mastercom_api_client.ApiClient;
-import bp4.mastercom_api_client.ApiException;
-import bp4.mastercom_api_client.Configuration;
+import fiserv.mastercom_api_client.ApiClient;
+import fiserv.mastercom_api_client.ApiException;
+import fiserv.mastercom_api_client.Configuration;
 import bp4.mastercom_api_client.models.*;
-import bp4.mastercom_api_client.api.ChargebacksApi;
+import api.fiserv.mastercom_api_client.ChargebacksApi;
 
 public class Example {
   public static void main(String[] args) {
@@ -156,11 +156,11 @@ Issuers and acquirers use this endpoint to reverse an existing chargeback when t
 ### Example
 ```java
 // Import classes:
-import bp4.mastercom_api_client.ApiClient;
-import bp4.mastercom_api_client.ApiException;
-import bp4.mastercom_api_client.Configuration;
+import fiserv.mastercom_api_client.ApiClient;
+import fiserv.mastercom_api_client.ApiException;
+import fiserv.mastercom_api_client.Configuration;
 import bp4.mastercom_api_client.models.*;
-import bp4.mastercom_api_client.api.ChargebacksApi;
+import api.fiserv.mastercom_api_client.ChargebacksApi;
 
 public class Example {
   public static void main(String[] args) {
@@ -220,11 +220,11 @@ Issuers and acquirers use this endpoint to retrieve documents in a desired forma
 ### Example
 ```java
 // Import classes:
-import bp4.mastercom_api_client.ApiClient;
-import bp4.mastercom_api_client.ApiException;
-import bp4.mastercom_api_client.Configuration;
+import fiserv.mastercom_api_client.ApiClient;
+import fiserv.mastercom_api_client.ApiException;
+import fiserv.mastercom_api_client.Configuration;
 import bp4.mastercom_api_client.models.*;
-import bp4.mastercom_api_client.api.ChargebacksApi;
+import api.fiserv.mastercom_api_client.ChargebacksApi;
 
 public class Example {
   public static void main(String[] args) {
@@ -291,11 +291,11 @@ Issuers and acquirers use this endpoint to obtain information about a potential 
 ### Example
 ```java
 // Import classes:
-import bp4.mastercom_api_client.ApiClient;
-import bp4.mastercom_api_client.ApiException;
-import bp4.mastercom_api_client.Configuration;
+import fiserv.mastercom_api_client.ApiClient;
+import fiserv.mastercom_api_client.ApiException;
+import fiserv.mastercom_api_client.Configuration;
 import bp4.mastercom_api_client.models.*;
-import bp4.mastercom_api_client.api.ChargebacksApi;
+import api.fiserv.mastercom_api_client.ChargebacksApi;
 
 public class Example {
   public static void main(String[] args) {
@@ -360,11 +360,11 @@ Issuers and acquirers use this endpoint to search for documents that have a spec
 ### Example
 ```java
 // Import classes:
-import bp4.mastercom_api_client.ApiClient;
-import bp4.mastercom_api_client.ApiException;
-import bp4.mastercom_api_client.Configuration;
+import fiserv.mastercom_api_client.ApiClient;
+import fiserv.mastercom_api_client.ApiException;
+import fiserv.mastercom_api_client.Configuration;
 import bp4.mastercom_api_client.models.*;
-import bp4.mastercom_api_client.api.ChargebacksApi;
+import api.fiserv.mastercom_api_client.ChargebacksApi;
 
 public class Example {
   public static void main(String[] args) {
@@ -427,11 +427,11 @@ Issuers and acquirers use this endpoint to search for the status of documents of
 ### Example
 ```java
 // Import classes:
-import bp4.mastercom_api_client.ApiClient;
-import bp4.mastercom_api_client.ApiException;
-import bp4.mastercom_api_client.Configuration;
+import fiserv.mastercom_api_client.ApiClient;
+import fiserv.mastercom_api_client.ApiException;
+import fiserv.mastercom_api_client.Configuration;
 import bp4.mastercom_api_client.models.*;
-import bp4.mastercom_api_client.api.ChargebacksApi;
+import api.fiserv.mastercom_api_client.ChargebacksApi;
 
 public class Example {
   public static void main(String[] args) {
@@ -494,11 +494,11 @@ Issuers and acquirers use this endpoint to update an existing chargeback with me
 ### Example
 ```java
 // Import classes:
-import bp4.mastercom_api_client.ApiClient;
-import bp4.mastercom_api_client.ApiException;
-import bp4.mastercom_api_client.Configuration;
+import fiserv.mastercom_api_client.ApiClient;
+import fiserv.mastercom_api_client.ApiException;
+import fiserv.mastercom_api_client.Configuration;
 import bp4.mastercom_api_client.models.*;
-import bp4.mastercom_api_client.api.ChargebacksApi;
+import api.fiserv.mastercom_api_client.ChargebacksApi;
 
 public class Example {
   public static void main(String[] args) {

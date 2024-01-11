@@ -80,11 +80,11 @@ Please follow the [installation](#installation) instruction and execute the foll
 ```java
 
 // Import classes:
-import bp4.mastercom_api_client.ApiClient;
-import bp4.mastercom_api_client.ApiException;
-import bp4.mastercom_api_client.Configuration;
+import fiserv.mastercom_api_client.ApiClient;
+import fiserv.mastercom_api_client.ApiException;
+import fiserv.mastercom_api_client.Configuration;
 import bp4.mastercom_api_client.models.*;
-import bp4.mastercom_api_client.api.CaseFilingApi;
+import api.fiserv.mastercom_api_client.CaseFilingApi;
 
 public class Example {
   public static void main(String[] args) {

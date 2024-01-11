@@ -18,11 +18,11 @@ This resource retrieves the status of the Mastercom API suite.
 ### Example
 ```java
 // Import classes:
-import bp4.mastercom_api_client.ApiClient;
-import bp4.mastercom_api_client.ApiException;
-import bp4.mastercom_api_client.Configuration;
+import fiserv.mastercom_api_client.ApiClient;
+import fiserv.mastercom_api_client.ApiException;
+import fiserv.mastercom_api_client.Configuration;
 import bp4.mastercom_api_client.models.*;
-import bp4.mastercom_api_client.api.HealthCheckApi;
+import api.fiserv.mastercom_api_client.HealthCheckApi;
 
 public class Example {
   public static void main(String[] args) {

@@ -20,11 +20,11 @@ Issuers use this endpoint to create a new claim, which is required before creati
 ### Example
 ```java
 // Import classes:
-import bp4.mastercom_api_client.ApiClient;
-import bp4.mastercom_api_client.ApiException;
-import bp4.mastercom_api_client.Configuration;
+import fiserv.mastercom_api_client.ApiClient;
+import fiserv.mastercom_api_client.ApiException;
+import fiserv.mastercom_api_client.Configuration;
 import bp4.mastercom_api_client.models.*;
-import bp4.mastercom_api_client.api.ClaimsApi;
+import api.fiserv.mastercom_api_client.ClaimsApi;
 
 public class Example {
   public static void main(String[] args) {
@@ -87,11 +87,11 @@ Issuers and acquirers use this endpoint to retrieve details for an existing clai
 ### Example
 ```java
 // Import classes:
-import bp4.mastercom_api_client.ApiClient;
-import bp4.mastercom_api_client.ApiException;
-import bp4.mastercom_api_client.Configuration;
+import fiserv.mastercom_api_client.ApiClient;
+import fiserv.mastercom_api_client.ApiException;
+import fiserv.mastercom_api_client.Configuration;
 import bp4.mastercom_api_client.models.*;
-import bp4.mastercom_api_client.api.ClaimsApi;
+import api.fiserv.mastercom_api_client.ClaimsApi;
 
 public class Example {
   public static void main(String[] args) {
@@ -154,11 +154,11 @@ Issuers use this endpoint to take an action (reopen or close) on an existing cla
 ### Example
 ```java
 // Import classes:
-import bp4.mastercom_api_client.ApiClient;
-import bp4.mastercom_api_client.ApiException;
-import bp4.mastercom_api_client.Configuration;
+import fiserv.mastercom_api_client.ApiClient;
+import fiserv.mastercom_api_client.ApiException;
+import fiserv.mastercom_api_client.Configuration;
 import bp4.mastercom_api_client.models.*;
-import bp4.mastercom_api_client.api.ClaimsApi;
+import api.fiserv.mastercom_api_client.ClaimsApi;
 
 public class Example {
   public static void main(String[] args) {

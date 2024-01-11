@@ -19,11 +19,11 @@ After an issuer creates a claim, the issuer uses this endpoint to retrieve detai
 ### Example
 ```java
 // Import classes:
-import bp4.mastercom_api_client.ApiClient;
-import bp4.mastercom_api_client.ApiException;
-import bp4.mastercom_api_client.Configuration;
+import fiserv.mastercom_api_client.ApiClient;
+import fiserv.mastercom_api_client.ApiException;
+import fiserv.mastercom_api_client.Configuration;
 import bp4.mastercom_api_client.models.*;
-import bp4.mastercom_api_client.api.TransactionsDebitMasterCardAndEuropeDualAcquirerApi;
+import api.fiserv.mastercom_api_client.TransactionsDebitMasterCardAndEuropeDualAcquirerApi;
 
 public class Example {
   public static void main(String[] args) {
@@ -86,11 +86,11 @@ An issuer uses this endpoint to search for information about an Mastercard Debit
 ### Example
 ```java
 // Import classes:
-import bp4.mastercom_api_client.ApiClient;
-import bp4.mastercom_api_client.ApiException;
-import bp4.mastercom_api_client.Configuration;
+import fiserv.mastercom_api_client.ApiClient;
+import fiserv.mastercom_api_client.ApiException;
+import fiserv.mastercom_api_client.Configuration;
 import bp4.mastercom_api_client.models.*;
-import bp4.mastercom_api_client.api.TransactionsDebitMasterCardAndEuropeDualAcquirerApi;
+import api.fiserv.mastercom_api_client.TransactionsDebitMasterCardAndEuropeDualAcquirerApi;
 
 public class Example {
   public static void main(String[] args) {

@@ -19,11 +19,11 @@ Senders (issuers or acquirers) use this endpoint to create a fee collection for 
 ### Example
 ```java
 // Import classes:
-import bp4.mastercom_api_client.ApiClient;
-import bp4.mastercom_api_client.ApiException;
-import bp4.mastercom_api_client.Configuration;
+import fiserv.mastercom_api_client.ApiClient;
+import fiserv.mastercom_api_client.ApiException;
+import fiserv.mastercom_api_client.Configuration;
 import bp4.mastercom_api_client.models.*;
-import bp4.mastercom_api_client.api.FeesApi;
+import api.fiserv.mastercom_api_client.FeesApi;
 
 public class Example {
   public static void main(String[] args) {
@@ -88,11 +88,11 @@ Senders (issuers or acquirers) use this endpoint to obtain information about a p
 ### Example
 ```java
 // Import classes:
-import bp4.mastercom_api_client.ApiClient;
-import bp4.mastercom_api_client.ApiException;
-import bp4.mastercom_api_client.Configuration;
+import fiserv.mastercom_api_client.ApiClient;
+import fiserv.mastercom_api_client.ApiException;
+import fiserv.mastercom_api_client.Configuration;
 import bp4.mastercom_api_client.models.*;
-import bp4.mastercom_api_client.api.FeesApi;
+import api.fiserv.mastercom_api_client.FeesApi;
 
 public class Example {
   public static void main(String[] args) {

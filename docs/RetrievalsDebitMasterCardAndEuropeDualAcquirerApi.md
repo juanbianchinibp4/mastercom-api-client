@@ -22,11 +22,11 @@ Prior to creating a chargeback, an issuer uses this endpoint to create a retriev
 ### Example
 ```java
 // Import classes:
-import bp4.mastercom_api_client.ApiClient;
-import bp4.mastercom_api_client.ApiException;
-import bp4.mastercom_api_client.Configuration;
+import fiserv.mastercom_api_client.ApiClient;
+import fiserv.mastercom_api_client.ApiException;
+import fiserv.mastercom_api_client.Configuration;
 import bp4.mastercom_api_client.models.*;
-import bp4.mastercom_api_client.api.RetrievalsDebitMasterCardAndEuropeDualAcquirerApi;
+import api.fiserv.mastercom_api_client.RetrievalsDebitMasterCardAndEuropeDualAcquirerApi;
 
 public class Example {
   public static void main(String[] args) {
@@ -91,11 +91,11 @@ Issuers and acquirers use this endpoint to retrieve all documents from acquirers
 ### Example
 ```java
 // Import classes:
-import bp4.mastercom_api_client.ApiClient;
-import bp4.mastercom_api_client.ApiException;
-import bp4.mastercom_api_client.Configuration;
+import fiserv.mastercom_api_client.ApiClient;
+import fiserv.mastercom_api_client.ApiException;
+import fiserv.mastercom_api_client.Configuration;
 import bp4.mastercom_api_client.models.*;
-import bp4.mastercom_api_client.api.RetrievalsDebitMasterCardAndEuropeDualAcquirerApi;
+import api.fiserv.mastercom_api_client.RetrievalsDebitMasterCardAndEuropeDualAcquirerApi;
 
 public class Example {
   public static void main(String[] args) {
@@ -162,11 +162,11 @@ After an acquirer fulfills a retrieval request, an issuer uses this endpoint to 
 ### Example
 ```java
 // Import classes:
-import bp4.mastercom_api_client.ApiClient;
-import bp4.mastercom_api_client.ApiException;
-import bp4.mastercom_api_client.Configuration;
+import fiserv.mastercom_api_client.ApiClient;
+import fiserv.mastercom_api_client.ApiException;
+import fiserv.mastercom_api_client.Configuration;
 import bp4.mastercom_api_client.models.*;
-import bp4.mastercom_api_client.api.RetrievalsDebitMasterCardAndEuropeDualAcquirerApi;
+import api.fiserv.mastercom_api_client.RetrievalsDebitMasterCardAndEuropeDualAcquirerApi;
 
 public class Example {
   public static void main(String[] args) {
@@ -233,11 +233,11 @@ Issuers and acquirers use this endpoint to search for documents that have a spec
 ### Example
 ```java
 // Import classes:
-import bp4.mastercom_api_client.ApiClient;
-import bp4.mastercom_api_client.ApiException;
-import bp4.mastercom_api_client.Configuration;
+import fiserv.mastercom_api_client.ApiClient;
+import fiserv.mastercom_api_client.ApiException;
+import fiserv.mastercom_api_client.Configuration;
 import bp4.mastercom_api_client.models.*;
-import bp4.mastercom_api_client.api.RetrievalsDebitMasterCardAndEuropeDualAcquirerApi;
+import api.fiserv.mastercom_api_client.RetrievalsDebitMasterCardAndEuropeDualAcquirerApi;
 
 public class Example {
   public static void main(String[] args) {
@@ -300,11 +300,11 @@ Issuers and acquirers use this endpoint to search for the status of documents th
 ### Example
 ```java
 // Import classes:
-import bp4.mastercom_api_client.ApiClient;
-import bp4.mastercom_api_client.ApiException;
-import bp4.mastercom_api_client.Configuration;
+import fiserv.mastercom_api_client.ApiClient;
+import fiserv.mastercom_api_client.ApiException;
+import fiserv.mastercom_api_client.Configuration;
 import bp4.mastercom_api_client.models.*;
-import bp4.mastercom_api_client.api.RetrievalsDebitMasterCardAndEuropeDualAcquirerApi;
+import api.fiserv.mastercom_api_client.RetrievalsDebitMasterCardAndEuropeDualAcquirerApi;
 
 public class Example {
   public static void main(String[] args) {

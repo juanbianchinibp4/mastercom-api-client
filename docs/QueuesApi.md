@@ -20,11 +20,11 @@ An issuer or acquirer uses this endpoint to retrieve a list of claims from a que
 ### Example
 ```java
 // Import classes:
-import bp4.mastercom_api_client.ApiClient;
-import bp4.mastercom_api_client.ApiException;
-import bp4.mastercom_api_client.Configuration;
+import fiserv.mastercom_api_client.ApiClient;
+import fiserv.mastercom_api_client.ApiException;
+import fiserv.mastercom_api_client.Configuration;
 import bp4.mastercom_api_client.models.*;
-import bp4.mastercom_api_client.api.QueuesApi;
+import api.fiserv.mastercom_api_client.QueuesApi;
 
 public class Example {
   public static void main(String[] args) {
@@ -87,11 +87,11 @@ An issuer or acquirer uses this endpoint to retrieve a list of claims from a que
 ### Example
 ```java
 // Import classes:
-import bp4.mastercom_api_client.ApiClient;
-import bp4.mastercom_api_client.ApiException;
-import bp4.mastercom_api_client.Configuration;
+import fiserv.mastercom_api_client.ApiClient;
+import fiserv.mastercom_api_client.ApiException;
+import fiserv.mastercom_api_client.Configuration;
 import bp4.mastercom_api_client.models.*;
-import bp4.mastercom_api_client.api.QueuesApi;
+import api.fiserv.mastercom_api_client.QueuesApi;
 
 public class Example {
   public static void main(String[] args) {
@@ -154,11 +154,11 @@ An issuer or acquirer uses this endpoint to retrieve a list of queues.
 ### Example
 ```java
 // Import classes:
-import bp4.mastercom_api_client.ApiClient;
-import bp4.mastercom_api_client.ApiException;
-import bp4.mastercom_api_client.Configuration;
+import fiserv.mastercom_api_client.ApiClient;
+import fiserv.mastercom_api_client.ApiException;
+import fiserv.mastercom_api_client.Configuration;
 import bp4.mastercom_api_client.models.*;
-import bp4.mastercom_api_client.api.QueuesApi;
+import api.fiserv.mastercom_api_client.QueuesApi;
 
 public class Example {
   public static void main(String[] args) {

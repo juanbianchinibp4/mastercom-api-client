@@ -20,11 +20,11 @@ After an issuer creates a claim, the issuer uses this endpoint to retrieve clear
 ### Example
 ```java
 // Import classes:
-import bp4.mastercom_api_client.ApiClient;
-import bp4.mastercom_api_client.ApiException;
-import bp4.mastercom_api_client.Configuration;
+import fiserv.mastercom_api_client.ApiClient;
+import fiserv.mastercom_api_client.ApiException;
+import fiserv.mastercom_api_client.Configuration;
 import bp4.mastercom_api_client.models.*;
-import bp4.mastercom_api_client.api.TransactionsApi;
+import api.fiserv.mastercom_api_client.TransactionsApi;
 
 public class Example {
   public static void main(String[] args) {
@@ -89,11 +89,11 @@ After an issuer creates a claim, the issuer uses this endpoint to retrieve autho
 ### Example
 ```java
 // Import classes:
-import bp4.mastercom_api_client.ApiClient;
-import bp4.mastercom_api_client.ApiException;
-import bp4.mastercom_api_client.Configuration;
+import fiserv.mastercom_api_client.ApiClient;
+import fiserv.mastercom_api_client.ApiException;
+import fiserv.mastercom_api_client.Configuration;
 import bp4.mastercom_api_client.models.*;
-import bp4.mastercom_api_client.api.TransactionsApi;
+import api.fiserv.mastercom_api_client.TransactionsApi;
 
 public class Example {
   public static void main(String[] args) {
@@ -158,11 +158,11 @@ An issuer uses this endpoint to search for information about an original transac
 ### Example
 ```java
 // Import classes:
-import bp4.mastercom_api_client.ApiClient;
-import bp4.mastercom_api_client.ApiException;
-import bp4.mastercom_api_client.Configuration;
+import fiserv.mastercom_api_client.ApiClient;
+import fiserv.mastercom_api_client.ApiException;
+import fiserv.mastercom_api_client.Configuration;
 import bp4.mastercom_api_client.models.*;
-import bp4.mastercom_api_client.api.TransactionsApi;
+import api.fiserv.mastercom_api_client.TransactionsApi;
 
 public class Example {
   public static void main(String[] args) {

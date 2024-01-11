@@ -3,7 +3,7 @@ apply plugin: 'eclipse'
 apply plugin: 'java'
 apply plugin: 'com.diffplug.spotless'
 
-group = 'com.bp4.mastercom-api-client-app'
+group = 'com.fiserv.mastercom-api-client-app'
 version = '1.0.0'
 
 buildscript {
@@ -108,7 +108,7 @@ ext {
 dependencies {
     implementation 'io.swagger:swagger-annotations:1.6.8'
     implementation "com.google.code.findbugs:jsr305:3.0.2"
-    implementation 'com.squareup.okhttp3:okhttp:4.10.0'
+    implementation 'com.squareup.okhttp3:okhttp:4.12.0'
     implementation 'com.squareup.okhttp3:logging-interceptor:4.10.0'
     implementation 'com.google.code.gson:gson:2.9.1'
     implementation 'io.gsonfire:gson-fire:1.8.5'
@@ -119,6 +119,7 @@ dependencies {
     implementation "jakarta.annotation:jakarta.annotation-api:$jakarta_annotation_version"
     implementation 'com.mastercard.developer:oauth1-signer:1.5.2'
     implementation 'com.mastercard.developer:client-encryption:1.7.10'
+    implementation 'net.minidev:json-smart:2.5.0'
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.9.1'
     testImplementation 'org.mockito:mockito-core:3.12.4'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.9.1'

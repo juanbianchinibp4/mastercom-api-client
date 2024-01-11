@@ -23,11 +23,11 @@ Issuer or acquirers use this endpoint to file a pre-arbitration, arbitration, pr
 ### Example
 ```java
 // Import classes:
-import bp4.mastercom_api_client.ApiClient;
-import bp4.mastercom_api_client.ApiException;
-import bp4.mastercom_api_client.Configuration;
+import fiserv.mastercom_api_client.ApiClient;
+import fiserv.mastercom_api_client.ApiException;
+import fiserv.mastercom_api_client.Configuration;
 import bp4.mastercom_api_client.models.*;
-import bp4.mastercom_api_client.api.CaseFilingApi;
+import api.fiserv.mastercom_api_client.CaseFilingApi;
 
 public class Example {
   public static void main(String[] args) {
@@ -90,11 +90,11 @@ Issuers and acquirers use this endpoint to retrieve all documents in a desired f
 ### Example
 ```java
 // Import classes:
-import bp4.mastercom_api_client.ApiClient;
-import bp4.mastercom_api_client.ApiException;
-import bp4.mastercom_api_client.Configuration;
+import fiserv.mastercom_api_client.ApiClient;
+import fiserv.mastercom_api_client.ApiException;
+import fiserv.mastercom_api_client.Configuration;
 import bp4.mastercom_api_client.models.*;
-import bp4.mastercom_api_client.api.CaseFilingApi;
+import api.fiserv.mastercom_api_client.CaseFilingApi;
 
 public class Example {
   public static void main(String[] args) {
@@ -161,11 +161,11 @@ Issuers and acquirers use this endpoint to search documents that have a specific
 ### Example
 ```java
 // Import classes:
-import bp4.mastercom_api_client.ApiClient;
-import bp4.mastercom_api_client.ApiException;
-import bp4.mastercom_api_client.Configuration;
+import fiserv.mastercom_api_client.ApiClient;
+import fiserv.mastercom_api_client.ApiException;
+import fiserv.mastercom_api_client.Configuration;
 import bp4.mastercom_api_client.models.*;
-import bp4.mastercom_api_client.api.CaseFilingApi;
+import api.fiserv.mastercom_api_client.CaseFilingApi;
 
 public class Example {
   public static void main(String[] args) {
@@ -228,11 +228,11 @@ Issuers and acquirers use this endpoint to search for the status of documents of
 ### Example
 ```java
 // Import classes:
-import bp4.mastercom_api_client.ApiClient;
-import bp4.mastercom_api_client.ApiException;
-import bp4.mastercom_api_client.Configuration;
+import fiserv.mastercom_api_client.ApiClient;
+import fiserv.mastercom_api_client.ApiException;
+import fiserv.mastercom_api_client.Configuration;
 import bp4.mastercom_api_client.models.*;
-import bp4.mastercom_api_client.api.CaseFilingApi;
+import api.fiserv.mastercom_api_client.CaseFilingApi;
 
 public class Example {
   public static void main(String[] args) {
@@ -295,11 +295,11 @@ Issuers or acquirers use this endpoint to retrieve a list of claims associated w
 ### Example
 ```java
 // Import classes:
-import bp4.mastercom_api_client.ApiClient;
-import bp4.mastercom_api_client.ApiException;
-import bp4.mastercom_api_client.Configuration;
+import fiserv.mastercom_api_client.ApiClient;
+import fiserv.mastercom_api_client.ApiException;
+import fiserv.mastercom_api_client.Configuration;
 import bp4.mastercom_api_client.models.*;
-import bp4.mastercom_api_client.api.CaseFilingApi;
+import api.fiserv.mastercom_api_client.CaseFilingApi;
 
 public class Example {
   public static void main(String[] args) {
@@ -362,11 +362,11 @@ Issuers or acquirers use this endpoint to take action (accept, reject, rebut, es
 ### Example
 ```java
 // Import classes:
-import bp4.mastercom_api_client.ApiClient;
-import bp4.mastercom_api_client.ApiException;
-import bp4.mastercom_api_client.Configuration;
+import fiserv.mastercom_api_client.ApiClient;
+import fiserv.mastercom_api_client.ApiException;
+import fiserv.mastercom_api_client.Configuration;
 import bp4.mastercom_api_client.models.*;
-import bp4.mastercom_api_client.api.CaseFilingApi;
+import api.fiserv.mastercom_api_client.CaseFilingApi;
 
 public class Example {
   public static void main(String[] args) {

@@ -19,11 +19,11 @@ An issuer or acquirer uses this endpoint to request that Mastercom generate a re
 ### Example
 ```java
 // Import classes:
-import bp4.mastercom_api_client.ApiClient;
-import bp4.mastercom_api_client.ApiException;
-import bp4.mastercom_api_client.Configuration;
+import fiserv.mastercom_api_client.ApiClient;
+import fiserv.mastercom_api_client.ApiException;
+import fiserv.mastercom_api_client.Configuration;
 import bp4.mastercom_api_client.models.*;
-import bp4.mastercom_api_client.api.ReconciliationApi;
+import api.fiserv.mastercom_api_client.ReconciliationApi;
 
 public class Example {
   public static void main(String[] args) {
@@ -86,11 +86,11 @@ An issuer or acquirer uses this endpoint to retrieve a reconciliation report or 
 ### Example
 ```java
 // Import classes:
-import bp4.mastercom_api_client.ApiClient;
-import bp4.mastercom_api_client.ApiException;
-import bp4.mastercom_api_client.Configuration;
+import fiserv.mastercom_api_client.ApiClient;
+import fiserv.mastercom_api_client.ApiException;
+import fiserv.mastercom_api_client.Configuration;
 import bp4.mastercom_api_client.models.*;
-import bp4.mastercom_api_client.api.ReconciliationApi;
+import api.fiserv.mastercom_api_client.ReconciliationApi;
 
 public class Example {
   public static void main(String[] args) {
